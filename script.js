@@ -3,20 +3,14 @@
 // (scelti a caso all’inizio) se cliccati
 // diventano rossi, gli altri diventano verdi.
 
-// $(".red").click(function() {
-//   $(this).css("background-color", "red");
-// })
+$(document).ready(function(){
 
 $(".quad").click(function() {
   if ($("div").hasClass("red")) {
-    $(this).css("background-color", "red");
+    $(this).addClass("isRed");
   } else {
-    $(this).css("background-color", "green")
+    $(this).addClass("isGreen");
   }
 })
 
-console.log($("div").attr("class") == "quad red");
-
-console.log($("div").hasClass("red"));
-
-console.log($("div").attr("class"));
+});
