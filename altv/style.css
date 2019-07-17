@@ -1,0 +1,20 @@
+.riga {
+  height: 50px;
+  border: 1px black solid;
+  display: flex;
+  justify-content: space-around;
+}
+
+.quad {
+  width: calc(100% / 8);
+  height: 50px;
+  border: 1px black solid;
+}
+
+.isRed {
+  background-color: red;
+}
+
+.isGreen {
+  background-color: green;
+}

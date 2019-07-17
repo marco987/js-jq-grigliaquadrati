@@ -5,6 +5,7 @@
 
 $(document).ready(function(){
 
+
 $("div").click(function() {
   if ($(this).hasClass("red")) {
     $(this).addClass("isRed");
@@ -12,5 +13,6 @@ $("div").click(function() {
     $(this).addClass("isGreen");
   }
 })
+
 
 });
