@@ -5,8 +5,8 @@
 
 $(document).ready(function(){
 
-$(".quad").click(function() {
-  if ($("div").hasClass("red")) {
+$("div").click(function() {
+  if ($(this).hasClass("red")) {
     $(this).addClass("isRed");
   } else {
     $(this).addClass("isGreen");
